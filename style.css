@@ -1,0 +1,102 @@
+.heading, .contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.just{
+    color: #B2B2B2;
+    font-family: 'IBM Plex Serif', serif;
+}
+.headContact{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    color: #3C4048;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-color: #EAEAEA;
+    background-color: #B2B2B2;
+    color: white;
+}
+input{
+    width: 400px;
+    height: 150px;
+    border: none;
+}
+h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 40px;
+    color: #3C4048;
+}
+body{
+    background-color: #EAEAEA;
+}
+.one{
+    background-image: url(room4.jpg);
+}
+.two{
+    background-image: url(room5.jpg);
+}
+.three{
+    background-image: url(room6.jpg);
+}
+.four{
+    background-image: url(room7.jpg);
+}
+.five{
+    background-image: url(room8.jpg);
+}
+.container{
+    display: flex;
+}
+.item{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'IBM Plex Serif', serif;
+    flex: 1;
+    margin: 5px;
+    position:relative;
+}
+h4{
+    position: absolute;
+    top:15px;
+    left: 40px;
+    background-color: transparent;
+    font-size: 0;
+}
+.par{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 0;
+}
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0;
+}
+.selected{
+    flex: 4;
+}
+.selected h4{
+    font-size: 25px;
+    transition: all 1s ease-in;
+}
+.selected .par{
+    font-size: 20px;
+    transition: all 1s ease-in;
+    background-color: #EAEAEA;
+    opacity: 0.8;
+}
+.selected .price{
+    font-size: 20px;
+    transition: all 1s ease-in;
+    background-color: #EAEAEA;
+    opacity: 0.8;
+    font-size: 30px;
+}
